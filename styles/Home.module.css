@@ -1,0 +1,47 @@
+/* @import url(globals.css); */
+/* @import url(Pics.css); */
+
+/* HEADER */
+
+.header {
+    width: 1920px;
+    height: 159px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    background: #C8E8F0;
+    border-radius: 0px 0px 30px 30px;
+    align-items: center;
+    /* position: fixed; */
+}
+
+.logo {
+    margin-top: 32px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48.83px;
+    line-height: 62px;
+    color: #000000;
+}
+
+.menu {
+    margin-top: 17px;
+    display: flex;
+    width: 805px;
+    justify-content: space-between;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #000000;
+}
+
+.menu-item {
+    padding: 0;
+
+    margin: 0 0 0 0;
+}

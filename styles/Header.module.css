@@ -1,0 +1,68 @@
+@import url(fonts.css);
+
+.headerBig {
+    width: 100vw;
+    height: 159px;
+    transition: ease 0.6s;
+    display: flex;
+    flex-direction: column;
+    background: #c8e8f0;
+    border-radius: 0px 0px 30px 30px;
+    align-items: center;
+    position: fixed;
+}
+
+.headerLittle {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 0;
+    background: #c8e8f0;
+    position: fixed;
+    transition: all 0.3s;
+    padding: 0px 64px 0px 64px;
+    z-index: 10;
+}
+
+.logo {
+    margin-top: 32px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48.83px;
+    line-height: 62px;
+    color: #000000;
+}
+
+
+
+
+.menu {
+    margin-top: 17px;
+    display: flex;
+    width: 805px;
+    justify-content: space-between;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.headerLittle .menu {
+    margin: auto 0;
+}
+
+.headerLittle .logo {
+    margin: auto 0;
+}
+
+.menuItem {
+    padding: 0;
+
+    margin: 0 0 0 0;
+}

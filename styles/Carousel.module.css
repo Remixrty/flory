@@ -1,0 +1,25 @@
+.itemBlock {
+    padding: 5px;
+    background-size: 534px;
+}
+
+
+
+.image {
+    max-width: 234px;
+}
+
+.carousel {
+    height: 534px;
+}
+
+.contentBlock {
+    margin-top: 48px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mainFrame {
+    margin-bottom: 133px;
+}

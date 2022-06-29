@@ -6,6 +6,7 @@ import FourthSection from './FourthSection'
 import SecondSection from './SecondSection'
 import ThirdSection from './ThirdSection'
 import styles from '../../styles/Pages.module.css'
+import BackConnect from './BackConnect'
 
 export default function Pages() {
 
@@ -25,6 +26,7 @@ export default function Pages() {
 
             <div className='container'>
                 <div className='row'><FourthSection /></div>
+                <div className='row'><BackConnect/></div>
             </div>
         </>
     )

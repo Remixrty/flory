@@ -96,7 +96,7 @@
 .button {
     width: 290px;
     height: 56px;
-    /* opacity: 0.8; */
+    opacity: 0.8;
     margin-left: 10px;
     /* margin: auto; */
     background-color: rgba(229, 123, 172, 0.6);
@@ -111,8 +111,13 @@
     text-align: center;
     box-sizing: border-box;
     margin-bottom: 40px;
-    /* margin: auto 0px auto 0px; */
-    /* align-self: flex-end; */
+}
+
+.button:hover {
+    transition: all 0.3s;
+    opacity: 1;
+    cursor: pointer;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
 .cardFrame {

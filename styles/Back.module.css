@@ -1,0 +1,37 @@
+.card {
+    width: 100%;
+    background-color: rgba(211, 237, 239, 0.9);
+    min-height: 790px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 24px;
+    padding-bottom: 40px;
+}
+
+.superField {
+    margin-bottom: 16px;
+    width: 100%;
+    height: 56px;
+    background: #FFFFFF;
+    border: 1px solid #AFE3F0;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 16px 32px;
+    color: #000000;
+    outline: none;
+    transition: all 0.3s;
+}
+
+.superField:focus-within {
+    transition: 0.3s;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

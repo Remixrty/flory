@@ -30,7 +30,7 @@ export default function FirstSection() {
                         Художник Ольга Григорьевых
 
                     </div>
-                    <div className={styles.button} style={{ backgroundColor: '#AFE3F0', margin: imgWidth == 534 ? '0 0 0 10px' : '0 auto 40px auto' }}>
+                    <div className={styles.button} style={{ backgroundColor: '#AFE3F0', margin: imgWidth == 534 ? '0 0 40px 10px' : '0 auto 40px auto' }}>
                         Заказать звонок
                     </div>
                 </div>

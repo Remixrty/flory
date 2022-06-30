@@ -36,7 +36,7 @@ export default function SecondSection() {
                         размеру и сюжету для своего интерьера!<br />
 
                     </div>
-                    <div className={styles.button} style={{ backgroundColor: 'rgba(229, 123, 172, 0.6)', margin: imgWidth == 534 ? '0 0 0 10px' : 'auto' }}>
+                    <div className={styles.button} style={{ backgroundColor: 'rgba(229, 123, 172, 0.6)', margin: imgWidth == 534 ? '0 0 40px 10px' : '0 auto 40px auto' }}>
                         Интерьерные картины
                     </div>
                 </div>

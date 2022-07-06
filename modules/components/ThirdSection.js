@@ -31,9 +31,9 @@ export default function ThirdSection() {
                         росписи стен интерьера вашей гостиной, спальни, детской!
 
                     </div>
-                    <div className={styles.button} style={{ backgroundColor: 'rgba(255, 0, 0, 0.1)', margin: imgWidth==534?'0 0 40px 10px':'0 auto 40px auto'  }} onClick={()=>document.getElementById('backSection').scrollIntoView({block:'center'})}>
+                    {/* <div className={styles.button} style={{ backgroundColor: 'rgba(255, 0, 0, 0.1)', margin: imgWidth==534?'0 0 40px 10px':'0 auto 40px auto'  }} onClick={()=>document.getElementById('backSection').scrollIntoView({block:'center'})}>
                         Роспись стен
-                    </div>
+                    </div> */}
                 </div>
                 <div className={styles.imgFrame} style={{ width: imgWidth, height: imgWidth }}>
                     <Image src='/rospis sten_9.jpg' width={imgWidth} height={imgWidth} />

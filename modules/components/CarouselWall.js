@@ -76,7 +76,7 @@ export default function CarouselWall() {
                     </div>
                     <div className='row'>
                         <div className={stylesCarousel.contentBlock}>
-                            <div className={stylesPages.button} style={{ width: '382px' }}>
+                            <div className={stylesPages.button} style={{ width: '382px' }} onClick={()=>document.getElementById('backSection').scrollIntoView({block:'center'})}>
                                 Заказать роспись стен
                             </div>
                         </div>

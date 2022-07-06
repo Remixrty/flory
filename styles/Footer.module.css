@@ -1,0 +1,52 @@
+.footerCard {
+    width: 100%;
+    margin: 0;
+    height: 240px;
+    background-color: #787878;
+}
+
+.footerContent {
+    display: flex;
+    color: #FFFFFF;
+    width: 100%;
+    justify-content: space-between;
+    height: 240px;
+}
+
+.footerSection {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.textField {
+    display: inline-flex;
+}
+
+.textFrame16 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 8px;
+    padding: auto;
+}
+
+.textFrame25 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+
+}
+
+.links {
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}

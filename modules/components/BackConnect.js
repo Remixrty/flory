@@ -15,7 +15,7 @@ export default function BackConnect() {
 
     const dispatch = useDispatch()
     const choose = useSelector(state => state.choose.choose)
-    console.log(choose);
+    // console.log(choose);
     const simpleDispatch = (choose) => {
         dispatch({ type: 'SIMPLE' })
     }

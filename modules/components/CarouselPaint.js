@@ -33,7 +33,7 @@ export default function CarouselPaint() {
 
     return (
         <>
-            <div className={stylesCarousel.mainFrame}>
+            <div className={stylesCarousel.mainFrame} id='carouselPaintSection'>
                 <div className='container'>
                     <div className='row'>
 
@@ -79,7 +79,7 @@ export default function CarouselPaint() {
                     <div className='row'>
                         <div className={stylesCarousel.contentBlock}>
                             <div className={stylesPages.button} style={{ width: '382px' }}>
-                                Заказать каталог с ценами
+                                Получить каталог картин
                             </div>
                         </div>
                     </div>

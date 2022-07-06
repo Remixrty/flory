@@ -17,7 +17,7 @@ export default function ThirdSection() {
     return (
         <>
 
-            <div className={styles.mainFrame}>
+            <div className={styles.mainFrame} id='thirdSection'>
                 <div className={styles.contentFrame}>
                     <div className={styles.nameBlock}>
                         Роспись стен

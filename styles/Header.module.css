@@ -26,6 +26,7 @@
     z-index: 10;
 }
 
+
 .logo {
     margin-top: 32px;
     font-family: 'Space Grotesk';
@@ -34,6 +35,7 @@
     font-size: 48.83px;
     line-height: 62px;
     color: #000000;
+    cursor: pointer;
 }
 
 
@@ -63,6 +65,15 @@
 
 .menuItem {
     padding: 0;
-
+    cursor: pointer;
     margin: 0 0 0 0;
+    text-decoration: none;
+    color: #000000;
+    transition: all 0.1s;
+}
+
+.menuItem:hover {
+    transition: all 0.1s;
+    transform: scale(1.1);
+    color: #000000;
 }

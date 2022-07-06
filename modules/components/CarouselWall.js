@@ -35,7 +35,7 @@ export default function CarouselWall() {
 
     return (
         <>
-            <div className={stylesCarousel.mainFrame}>
+            <div className={stylesCarousel.mainFrame} id='carouselWallSection'>
                 <div className='container'>
                     <div className='row'>
 
@@ -72,6 +72,13 @@ export default function CarouselWall() {
                                     <Image src='/rospis sten_10.jpg' width={imgWidth} height={imgWidth} />
                                 </div>
                             </Slider>
+                        </div>
+                    </div>
+                    <div className='row'>
+                        <div className={stylesCarousel.contentBlock}>
+                            <div className={stylesPages.button} style={{ width: '382px' }}>
+                                Заказать роспись стен
+                            </div>
                         </div>
                     </div>
                 </div>

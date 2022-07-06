@@ -46,6 +46,8 @@
     box-sizing: border-box;
 }
 
+
+
 @media screen and (min-width:800px) {
     /* .textFrame31{
         min-width: 300px;
@@ -107,11 +109,16 @@
     font-size: 20px;
     color: #000000;
     line-height: 24px;
-    padding-top: 16px;
+    padding: 16px;
     text-align: center;
     box-sizing: border-box;
     margin-bottom: 40px;
 }
+
+/* input[type='file']{
+    text-decoration: none;
+} */
+
 
 .button:hover {
     transition: all 0.3s;
@@ -147,6 +154,10 @@
     transition: all 0.3s;
     background-image: none;
 }
+
+/* .card .textBold31 {
+    text-decoration: underline;
+} */
 
 .cardMini {
     transition: all 0.3s;

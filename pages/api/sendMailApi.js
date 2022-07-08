@@ -44,7 +44,7 @@ export default async (req, res) => {
       else console.log(info);
     })
 
-    res.status(200).json({ name, phone, email, messageAbout })
+    res.status(200).json({message:'success' })
 
   }
   catch (e) {

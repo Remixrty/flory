@@ -8,6 +8,7 @@ import ThirdSection from './ThirdSection'
 import styles from '../../styles/Pages.module.css'
 import BackConnect from './BackConnect'
 import FAQ from './FAQ'
+import Mail from './Mail'
 
 export default function Pages() {
     return (
@@ -32,6 +33,8 @@ export default function Pages() {
                 <div className='row'><BackConnect /></div>
                 <div className='row'><FAQ/></div>
             </div>
+
+            {/* <Mail name={'hello'}/> */}
         </>
     )
 }

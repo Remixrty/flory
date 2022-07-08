@@ -1,5 +1,6 @@
 require('dotenv').config()
 const nodemailer = require('nodemailer')
+import Mail from '../../modules/components/Mail'
 
 export default async (req, res) => {
   try {
@@ -23,8 +24,7 @@ export default async (req, res) => {
       to: email,
       subject: `Обратная связь от сервиса floriarty`,
       text: '',
-      html: `<div><h1>Здравствуйте, ${name}! Мы получили от Вас письмо с запросом</h1><h2>В скором времени мы свяжемся с Вами для уточнения деталей. Обычно ответ приходит в течение дня!
-      </h2></div>`
+      html: `${Mail(name)}`
     }
 
     const toMeMailData = {

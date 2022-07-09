@@ -36,16 +36,16 @@ export default async (req, res) => {
       html: `<div>Имя: ${name}<br/>Телефон: ${phone}<br/>Email: ${email}<br/>Пожелания: ${messageAbout}<br/>Выбранный стиль: ${drop}</div>`
     }
 
-    transporter.sendMail(mailData, function (err, info) {
-      if (err) { res.json(err) }
+    transporter.sendMail(mailData, async function (err, info) {
+      if (err) { await res.json(err) }
       else { console.log(info); }
     })
-    transporter.sendMail(toMeMailData, function (err, info) {
-      if (err) { res.json(err); }
+    transporter.sendMail(toMeMailData, async function (err, info) {
+      if (err) { await res.json(err); }
       else { console.log(info); }
     })
 
-    res.status(200).json({ message: 'success' })
+    await res.status(200).json({ message: 'success' })
 
   }
   catch (e) {

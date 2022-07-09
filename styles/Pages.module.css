@@ -23,6 +23,15 @@
     margin-bottom: 133px;
 }
 
+.faqFrame {
+    margin-bottom: 133px;
+}
+
+/* .accordion-button {
+    background-color: #FFFFFF;
+    border: 7px solid;
+} */
+
 .contentFrame {
     display: flex;
     flex-direction: column;
@@ -237,4 +246,23 @@
     line-height: 38px;
     transition: all 0.3s;
     /* color: #000000; */
+}
+
+.textMed20 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.textBold20 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
 }

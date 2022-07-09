@@ -1,5 +1,4 @@
 export default function Mail(name) {
-    // const name = props.name
     return (
         `<div style=" margin: auto; background-color: rgba(211, 237, 239, 0.9); border-radius: 15px; width: 600px; height: 600px; border: 1px solid #ABABAB; padding: 40px;">
             <h1 style="text-align: center; font-family: 'Space Grotesk'; font-style: normal; font-weight: 300; font-size: 35px;

@@ -44,7 +44,7 @@ export default async (req, res) => {
       else console.log(info);
     })
 
-    res.status(200).json({message:'success' })
+    res.status(200).json(process.env.SMTP_LOGIN)
 
   }
   catch (e) {

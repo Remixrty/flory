@@ -5,7 +5,8 @@ import Mail from '../../modules/components/Mail'
 export default async (req, res) => {
   try {
     const { email, name, phone, messageAbout, drop } = req.body
-
+    let check1 = false
+    let check2 = false
     const transporter = nodemailer.createTransport({
       host: process.env.SMTP_HOST,
       port: process.env.SMTP_PORT,
@@ -36,15 +37,15 @@ export default async (req, res) => {
     }
 
     transporter.sendMail(mailData, function (err, info) {
-      if (err) console.log(err);
-      else console.log(info);
+      if (err) { res.json(err) }
+      else { console.log(info); }
     })
     transporter.sendMail(toMeMailData, function (err, info) {
-      if (err) console.log(err);
-      else console.log(info);
+      if (err) { res.json(err); }
+      else { console.log(info); }
     })
 
-    res.status(200).json(process.env.SMTP_LOGIN)
+    res.status(200).json({ message: 'success' })
 
   }
   catch (e) {
